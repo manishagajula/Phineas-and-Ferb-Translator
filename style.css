@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f3f4f6;
+  background: url("./image/imagepf7.jpeg") no-repeat center center/cover;
+  height: 80vh;
+  padding: 4rem;
+  width: 100%;
+}
+
+h1 {
+  background-color: red;
+  color: #fde047;
+  padding: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgb(23, 21, 5);
+}
+
+.container-center {
+  background-color: red;
+  color: #fde047;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-msg {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 8px rgb(23, 21, 5);
+}
+
+.output-msg {
+  color: red;
+  font-weight: bolder;
+  font-size: 200%;
+  text-shadow: 2px 2px 8px #f3eced;
+  padding: 2rem;
+}
+
+textarea {
+  background: transparent;
+  border-color: #064e3b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  font-weight: 700;
+  color: yellow;
+  opacity: 0.7;
+  text-shadow: 2px 2px 8px black;
+}
+
+#btn-translate {
+  color: #e41150;
+  text-shadow: black;
+  background-color: #fde047;
+  font-size: 1.1rem;
+  border-radius: 0.9rem;
+  padding: 0.3rem 0.6rem;
+}
+
+button {
+  margin-top: 2rem;
+  text-shadow: 2px 2px 8px rgb(194, 186, 122);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#textbox-container {
+  padding: 2rem;
+  border: 3px solid #fde68a;
+  overflow: auto;
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  background-color: #5ac6f4;
+  background-image: url("./image/imagepf1.jpeg") no-repeat center center/cover;
+} */
+
+/* textarea::placeholder {
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+  border: none;
+}
+
+.container-center {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fde047;
+  font-size: xxx-large;
+  font-weight: bold;
+  background-color: red;
+  padding: 2rem;
+}
+
+#txt-input {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
+textarea {
+  width: 50%;
+  height: 10vh;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fde68a;
+  border-color: #1e40af;
+  position: absolute;
+} */
+
+/* #btn-translate {
+  padding: 0.2rem;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin: 2rem auto;
+  background-color: red;
+  color: #fde047;
+  font-size: large;
+  font-weight: bold;
+}
+
+.output-msg {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+  position: absolute;
+} */
+
+/*#footer {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-color: red;
+  color: #fde047;
+  padding: 2rem;
+  position: absolute;
+}
+*/
